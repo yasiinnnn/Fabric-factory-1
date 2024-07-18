@@ -4,7 +4,7 @@ print("welcoam t Car kaneh")
 time.sleep(3.5) 
 class Car_kaneh():
   #zharid parche
-  '''import m'''
+  import m
 
   def Adres(self):
       s = str(input("do you adres skayate mishahid: "))
@@ -24,7 +24,7 @@ class Car_kaneh():
         print("wecome to skayate")
 
   def Shyaty(self):
-      print('noe parche:')
+      print('noe parche')
       time.sleep(2.4)
 
       s = str(input('noe parche; parche, katan, jin, nakee: '))
@@ -45,15 +45,15 @@ class Car_kaneh():
         time.sleep(2.4)
         print('motevage shodam go to room 4')
     #parcheh:parche 
-  import room
+      import room
   def Tamir(self):
-      print('noe parche: parche, katan, jin, nakee')
+      re = print('noe parche: parche, katan, jin, nakee')
       time.sleep(4.6)
 
       q = str(input('noe parche: '))
 
       if q == 'parche':
-        print('moshkle:kutah kardan, parge, dorost kardan zip, mark zadan')
+        print('moshkle:kutah kardan, parge, dorost kardan zip')
 
         w = str(input('moshkelash che hast: '))
 
@@ -90,12 +90,13 @@ class Car_kaneh():
           if u == 'no':
             p = str(input('do moshkel you jip sharvar ast; yes vs no: '))
 
-            if u == 'yes':
+            if p == 'yes':
              print('dast moz = 15')
              time.sleep(3.5)
-             a = int(input('pirahan shoma chand zip dard: '))
-             s = i * 15
-             print(o)
+             a = int(input('sharvar shoma chand zip dard: '))
+             s = a * 15
+             print(s)
+             
 
           if u == 'no':
             str(input('az zhadamat raze bodid; yes vs no '))
